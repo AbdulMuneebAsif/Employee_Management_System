@@ -10,11 +10,11 @@ The project consists of the following key components:
 
 - **CMakeLists.txt**: The main configuration file for CMake, specifying the project details and build instructions.
 - **Source Files**: 
-  - `main.cpp`: The entry point of the application.
-  - `Implementation.cpp`: Contains the core logic and implementation details.
+- `main.cpp`: The entry point of the application.
+- `Implementation.cpp`: Contains the core logic and implementation details.
 - **Header Files**:
-  - `Node.h`: Defines the structure and operations for a node, likely used in data structures.
-  - `List.h`: Provides list operations, possibly for managing collections of nodes or employee records.
+- `Node.h`: Defines the structure and operations for a node, likely used in data structures.
+- `List.h`: Provides list operations, possibly for managing collections of nodes or employee records.
 
 ## Build System
 
@@ -54,25 +54,25 @@ The project includes a basic testing setup, as indicated by the `LastTest.log` f
 ## How to Build
 
 1. **Clone the Repository**:
-   ```bash
-   git clone <repository-url>
-   cd Employee_Management_System
-   ```
+```bash
+git clone <repository-url>
+cd Employee_Management_System
+```
 
 2. **Configure the Build**:
-   ```bash
-   cmake -S . -B cmake-build-debug -G Ninja
-   ```
+```bash
+cmake -S . -B cmake-build-debug -G Ninja
+```
 
 3. **Build the Project**:
-   ```bash
-   cmake --build cmake-build-debug
-   ```
+```bash
+cmake --build cmake-build-debug
+```
 
 4. **Run the Executable**:
-   ```bash
-   ./cmake-build-debug/Employee_Management_System
-   ```
+```bash
+./cmake-build-debug/Employee_Management_System
+```
 
 ## Future Enhancements
 
