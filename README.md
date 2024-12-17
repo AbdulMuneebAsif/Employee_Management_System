@@ -55,7 +55,7 @@ The project includes a basic testing setup, as indicated by the `LastTest.log` f
 
 1. **Clone the Repository**:
 ```bash
-git clone <repository-url>
+git clone https://github.com/AbdulMuneebAsif/Employee_Management_System
 cd Employee_Management_System
 ```
 
