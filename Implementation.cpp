@@ -232,7 +232,9 @@ void List::mainMenu() {
                 break;
             }
             case 6: {
-                cout << "Exiting Program. Goodbye!" << endl;
+                cout << "\t\t\t" << "==================================" << endl;
+                cout << "\t\t\t" << "||   Goodbye! Have a Nice Day   ||" << endl;
+                cout << "\t\t\t" << "==================================" << endl;
                 exit(0);
             }
             default: {
